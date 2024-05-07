@@ -1,0 +1,26 @@
+.productContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 600%;
+    margin-top: 20px;
+    margin-left: 10%;
+    gap: 15%;
+  }
+  
+  .error-message {
+    color: #aa3d3d;
+    margin-top: 10px;
+  }
+  #availProd{
+    margin-left: 40%;
+  }
+  .bottom-right-image {
+    width: 6%;
+    height: 12%;
+    position: fixed;
+    bottom: 5%; /* Adjust the bottom margin as needed */
+    right: 3%;
+  }
+  
+  

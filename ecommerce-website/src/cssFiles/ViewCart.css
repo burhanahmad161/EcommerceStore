@@ -1,0 +1,67 @@
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#topHead {
+  margin: 20px 0;
+  color: black;
+}
+
+.centered-table {
+  width: 80%;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.checkout-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#paymentMethod {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#checkOutButton {
+  color: white;
+  background-color: #d08a70;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for Material-UI IconButton */
+.MuiIconButton-root {
+  padding: 6px;
+}
+
+/* Styles for Material-UI icons within IconButton */
+.MuiSvgIcon-root {
+  font-size: 1.5rem;
+}

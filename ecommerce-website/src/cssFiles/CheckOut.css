@@ -1,0 +1,57 @@
+#mainDivC
+{
+    padding-top: 1%;
+    padding-bottom: 2.8%;
+}
+.mainFormC {
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 39%;
+    z-index: 1;
+    max-width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(71, 5, 5, 0.6);
+    border-radius: 10px;
+  }
+  .mainFormC input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    background: transparent;
+  }
+  .btnC {
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 55%;
+    margin-left: 35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #d08a70;
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 15px;
+  }
+  
+  .btnC:hover {
+      background: gray;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  input::placeholder {
+    color: black;
+  }
+  .error-message{
+    margin-left: 5px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+  }
